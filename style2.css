@@ -1,0 +1,50 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #10CAC0;
+        }
+        .button {
+            width: 55px;
+            height: 55px;
+            font-size: 25px;
+            margin: 2px;
+            cursor: pointer;
+        }
+
+        .textview {
+            width: 225px;
+            margin: 3px;
+            font-size: 25px;
+            padding: 5px;
+        }
+
+        .OButton {
+            width: 116px;
+        }
+
+        .equalButton {
+            height: 116px;
+        }
+
+        .main {
+            position: absolute;
+            background-color:  #10CAC0;
+            border-radius: 3px;
+            padding-top: 8px;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+        .button {
+            border: 1px solid white;
+            background-color:#ffffffbf;
+        }
+        .button:hover{
+            border:  #a8cecc;
+            background-color:  #fffff0e6;
+        }
+  
